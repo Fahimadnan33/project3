@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.rahim{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image:url(../images/person.jpg);
+    height:400px ;
+    width: 300;
+    display: block;
+   
+
+ 
+}
+h1,h3,h4{
+    color:wheat;
+    padding-top: 30px;
+    text-align: center;
+    display: block;
+}
+
+
+.Fahim{
+
+    margin:20px auto;
+    text-align: center;
+    font-size: 30px;
+    border:10px solid #000;
+    width: 150px;
+    border-radius: 5px;
+}
+.Fahim:hover{
+    background-color: #b86e7e;
+    box-shadow: 30px -10px  #b86e7e;
+}
+
+.adnan{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-basis: 3;
+    
+  
+
+
+}
+.karim{
+   
+    text-align: justify;
+    height: 300px;
+    width: 300px;
+   margin: 30PX auto;
+    border:8px solid #000;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 20px;
+    
+}
+
+
+
+
+.karim:hover{
+    background-color: tan;
+    cursor: pointer;
+    box-shadow: 20px 30px tan;
+
+}
+h2{
+    text-align: center;
+
+}
+
+
+.tamim{
+    text-align: justify;
+    height: 300px;
+    width: 300px;
+    margin: 30PX auto;
+    border:8px solid #000;
+    border-radius: 5px;
+    overflow: hidden;
+   
+    padding: 20px;
+    
+    
+}
+.tamim:hover{
+    background-color: tan;
+    cursor: pointer;
+    box-shadow: 20px 30px tan;
+}
+.arman{
+    text-align: justify;
+    height: 300px;
+    width: 300px;
+    border: 8px solid #000;
+    overflow: hidden;
+    padding: 20px;
+    margin: 30PX auto;
+    border-radius: 5px;
+
+}
+.arman:hover{
+    box-shadow: 20px 30px tan;
+    background-color: tan;
+    cursor: pointer;
+}
+.top{
+    width: 100%;
+    height: ;
+    display: flex;
+    background: darkslategrey;
+    margin: 10px 0;
+    padding: 20px 0;
+   justify-content: center;
+    text-align: center;
+   
+}
+
+form{
+    width:  300px;
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    background: slategray;
+    padding: 20px 0;
+    box-shadow: 20px 19px slategrey;
+    border: 7px solid black;
+    border-radius: 5px;
+
+}
+
+form input,textarea{
+    margin: 10px 0;
+    padding: 10px 0;
+    
+    border-radius: 3px;
+    font-size: 18px;
+   
+
+
+}
+input:hover{
+    background: skyblue;
+    cursor: pointer;
+}
+textarea:hover{
+    background: skyblue;
+    cursor: pointer;
+}
+.ste{
+justify-content: center;
+text-align: center;
+margin: 10px auto;
+background: slategrey;
+
+}
